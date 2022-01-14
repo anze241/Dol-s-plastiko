@@ -1,0 +1,17 @@
+﻿  Main.cpp
+c:\sdl\game\game\player.h(59): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\sdl\game\game\player.h(65): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\sdl\game\game\player.h(71): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\sdl\game\game\player.h(80): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\sdl\game\game\player.h(81): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\sdl\game\game\player.h(99): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\sdl\game\game\player.h(100): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\sdl\game\game\player.h(118): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\sdl\game\game\player.h(119): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\sdl\game\game\updatewindow.h(196): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\sdl\game\game\main.cpp(17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+Main.obj : error LNK2019: unresolved external symbol _TTF_Init referenced in function "void __cdecl displayScore(struct SDL_Renderer *,int)" (?displayScore@@YAXPAUSDL_Renderer@@H@Z)
+Main.obj : error LNK2019: unresolved external symbol _TTF_OpenFont referenced in function "void __cdecl displayScore(struct SDL_Renderer *,int)" (?displayScore@@YAXPAUSDL_Renderer@@H@Z)
+Main.obj : error LNK2019: unresolved external symbol _TTF_RenderText_Solid referenced in function "void __cdecl displayScore(struct SDL_Renderer *,int)" (?displayScore@@YAXPAUSDL_Renderer@@H@Z)
+Main.obj : error LNK2019: unresolved external symbol _TTF_CloseFont referenced in function "void __cdecl displayScore(struct SDL_Renderer *,int)" (?displayScore@@YAXPAUSDL_Renderer@@H@Z)
+C:\SDL\Game\Debug\Game.exe : fatal error LNK1120: 4 unresolved externals

@@ -1,0 +1,1 @@
+If you want to play run "Game/Release/Game.exe"
